@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Para generar todos los datos de una vez, ejecuta:
 
 ```bash
-python scripts/generar_todos_datos.py
+python crear_datos/scripts/generar_todos_datos.py
 ```
 
 Este comando:
@@ -49,37 +49,37 @@ Si quieres generar archivos específicos, puedes ejecutar cada script por separa
 
 ```bash
 # Generar ubicaciones y zonas
-python scripts/generar_ubicaciones.py
+python crear_datos/scripts/generar_ubicaciones.py
 
 # Generar clientes (CRM)
-python scripts/generar_clientes.py
+python crear_datos/scripts/generar_clientes.py
 
 # Generar infraestructura
-python scripts/generar_infraestructura.py
+python crear_datos/scripts/generar_infraestructura.py
 
 # Generar personal
-python scripts/generar_personal.py
+python crear_datos/scripts/generar_personal.py
 
 # Generar lecturas de medidores
-python scripts/generar_lecturas_medidores.py
+python crear_datos/scripts/generar_lecturas_medidores.py
 
 # Generar entregas de gas
-python scripts/generar_entregas_gas.py
+python crear_datos/scripts/generar_entregas_gas.py
 
 # Generar mantenimientos
-python scripts/generar_mantenimientos.py
+python crear_datos/scripts/generar_mantenimientos.py
 
 # Generar eventos del sistema
-python scripts/generar_eventos_sistema.py
+python crear_datos/scripts/generar_eventos_sistema.py
 
 # Generar facturación (Sistema de Billing)
-python scripts/generar_facturacion.py
+python crear_datos/scripts/generar_facturacion.py
 
 # Generar pagos (Sistema de Cobranzas)
-python scripts/generar_pagos.py
+python crear_datos/scripts/generar_pagos.py
 
 # Generar tarifas
-python scripts/generar_tarifas.py
+python crear_datos/scripts/generar_tarifas.py
 ```
 
 ## 📊 Datos Generados
